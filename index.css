@@ -1,0 +1,35 @@
+.about{
+    height: 50%;
+    width: 30%;
+    opacity: 0.7;
+    left: 0%;
+    float: left;
+    background-color: rgb(219, 38, 38);
+
+}
+.row{
+    margin-top: 0%;
+    width: 100%;
+}
+.vision{
+    height: 50%;
+    width: 30%;
+    opacity: 0.7;
+    float: right;
+    background-color: rgb(219, 38, 38);
+
+}
+.heading{
+    text-align: center;
+    color: aliceblue;
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mission{
+    height: 50%;
+    width: 30%;
+    opacity: 0.7;
+    margin-left: 35%;
+    background-color: rgb(219, 38, 38);
+}
+
