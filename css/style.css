@@ -1,0 +1,10 @@
+.link:hover{
+    color:black;
+}
+.link{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+ul{
+    list-style-type:none;
+}
