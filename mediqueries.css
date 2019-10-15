@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+        padding: 2px;
+    }
+    .left {
+        width: 100%;
+        position: relative;
+    }
+    .left .l-tag{
+        font-size: 50px;
+    }
+    .logopart{
+        position: relative;
+    }
+    .logo{
+        margin-top: 5%;
+        margin-left: auto;
+    }
+    .right{
+        width: 100%;
+    }
+    .about{
+        width: 100%;
+    }
+    .eve-card .face .face1{
+        width: 100%;
+    }
+    .topnav{
+        display: none;
+    }
+}

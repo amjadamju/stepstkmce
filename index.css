@@ -120,7 +120,7 @@ color: white;
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  border:solid rgb(224, 16, 16) 10px ;
+  /* border:solid rgb(224, 16, 16) 10px ; */
   position: absolute;
   left: 45%;
   right: 45%;
@@ -150,6 +150,7 @@ color: white;
 
 /*past Events*/
 .event-card{
+  border: none;
   margin: 20px;
 }
 .card{
@@ -206,6 +207,12 @@ color: white;
   margin-top: 5px;
   padding: 0;
 }
+.event-cards .card:hover .face.face2 {
+  background: rgb(224, 16, 16);
+  color: white;
+  opacity: 0.7;
+
+}
 .event-cards .card .face.face2 .content a{
   margin: 15px 0 0;
   display: inline-block;
@@ -239,4 +246,11 @@ color: white;
 }
 .event-cards .card:hover .face.face1 .content h3{
   display: none;
+}
+.event-btn{
+  margin-left: 45%;
+}
+/*Blood donation part*/
+.blood-img{
+  width: 50%;
 }
