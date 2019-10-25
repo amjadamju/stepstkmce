@@ -157,3 +157,7 @@
 .event-cards .card:hover .face.face1 .content h3{
   display: none;
 }
+
+.eve-card{
+  border: 1px solid #ffffff ;
+}
