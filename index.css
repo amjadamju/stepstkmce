@@ -8,7 +8,7 @@ body{
   left: 0%;
   width: 50%;
   height: 50%;
-  float: left;
+  /* float: left; */
 }
 .right{
   right: 0%;
@@ -44,8 +44,8 @@ body{
   z-index: -1;
 }
 .carousel-image{
-  width: 95%;
-  height: 500px;
+  width: 93%;
+  height: 550px;
 }
 .centered{
   margin-left: 5%;
@@ -113,3 +113,11 @@ body{
   color: #000;
 }
 
+/*Sukrita*/
+.image-small{
+  height: 100%;
+  width: 100%;
+}
+.card-body{
+  background-color: rgb(224, 16, 16);
+}

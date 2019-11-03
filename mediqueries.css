@@ -1,11 +1,10 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     body{
         overflow-x: hidden;
         padding: 2px;
     }
     .left {
         width: 100%;
-        position: relative;
     }
     .left .l-tag{
         font-size: 50px;
@@ -24,17 +23,31 @@
     #About{
         width: 100%;
         margin: auto;
-        height: 45%;
-        margin-bottom: 5%;
+        /* height: 45%; */
+        /* margin-bottom: 5%;
+        margin-top: 10%; */
     } 
     #Vision{
-        height: 25%;
+        /* height: 25%; */
         width: 100%;
         margin: auto;
     }
     #Mission{
         width: 100%;
         margin: auto;
-        height: 52%;
+        /* height: 52%; */
     }
+    .full-form{
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+    .carousel-image{
+        height: 300px;
+        width: 100%;
+    }
+    .img-sm{
+        width: 100%;
+        position: relative;
+   }
+   
 }

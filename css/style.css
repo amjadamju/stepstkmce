@@ -7,7 +7,7 @@
 }
 .container1{
   position: relative;
-  width:30%;
+  width:100%;
 }
 
 .image1 {
@@ -95,7 +95,7 @@ h1{
     width:160px;
     height: 160px;
     overflow: hidden;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 .imlink1{
   display:inline-block;
@@ -103,7 +103,7 @@ h1{
   width:200px;
   height: 200px;
   overflow: hidden;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 .imlink:hover{
   opacity: 0.7;
@@ -116,7 +116,7 @@ h1{
     width: 100%;
 }
 .imb{
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
 }
 .imlink:hover{
@@ -144,7 +144,6 @@ h1{
 .about{
     width: 30%; 
     height: 50%;
-    float: left;
     opacity: 0.7;
     margin: 25px;
     padding-right: 15px;
@@ -278,4 +277,35 @@ span{
 }
 .event-card{
   border: none;
+}
+
+
+
+
+.img__wrap {
+  position: relative;
+  /* height: 200px;
+  width: 257px; */
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(236, 2, 2, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .8s, visibility .2s;
+  margin: auto;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+#more{
+  display: none;
 }
