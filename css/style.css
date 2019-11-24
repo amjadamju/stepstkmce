@@ -3,19 +3,16 @@
   overflow: hidden;
   background-color:white;
   float:right;
-
 }
 .container1{
   position: relative;
   width:100%;
 }
-
 .image1 {
   display: block;
   width: 100%;
   height: 50%;
 }
-
 .overlay {
   position: absolute;
   top: 0;
@@ -44,9 +41,6 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
-
-
 
 .link{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -233,12 +227,6 @@ h1{
 color: white;
 }
 
-.nav-logo{
-  width: 80px;
-  height: 80px;
-  border-radius: 100%;
-  top: 0;
-}
 .nav-link{
   font-weight: 800;
 }
@@ -263,7 +251,6 @@ color: white;
     text-decoration: none;
     transition: all 0.4s ease 0s;
     }
-
   .eve-card{
     border: none;
   }
@@ -308,4 +295,8 @@ span{
 }
 #more{
   display: none;
+}
+.gallery-item{
+  height: 100%;
+  width: 100%;
 }
