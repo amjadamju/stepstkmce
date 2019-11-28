@@ -29,6 +29,6 @@ function operation6()
 }
 function operation7()
 {
-    hridyam='<div class="row m-5"><div class="column">    <img src="images/hridyam1.jpg" style="width:100%"></div><div class="column">    <img src="images/hridyam2.jpg" style="width:100%"></div><div class="column"><img src="images/hridyam3.jpg" style="width:100%"></div><div class="column">   <img src="images/carousel2.jpg" style="width:100%"></div>'
+    hridyam='<div class="row m-5"><div class="column">   <img src="images/carousel2.jpg" style="width:100%"> </div><div class="column">    <img src="images/hridyam2.jpg" style="width:100%"></div><div class="column"><img src="images/hridyam3.jpg" style="width:100%"></div><div class="column"> <img src="images/hridyam1.jpg" style="width:100%">  </div>'
     document.getElementById('img-gallery').innerHTML=hridyam;
 }
