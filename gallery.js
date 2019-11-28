@@ -19,7 +19,7 @@ function operation4()
     document.getElementById('img-gallery').innerHTML=firstlove;
 }
 function operation5(){
-    onam='<div class="row m-5"><div class="column">    <img src="images/onam1.jpg" style="width:100%"></div><div class="column">    <img src="images/onam2.jpg" style="width:100%"> </div><div class="column">    <img src="images/onam3.jpg" style="width:100%"></div><div class="column">    <img src="images/onam4.jpg" style="width:100%"></div>'
+    onam='<div class="row m-5"><div class="column">    <img src="images/onam5.jpg" style="width:100%"><img src="images/onam9.jpg" style="width:100%"><img src="images/onam1.jpg" style="width:100%"></div><div class="column"> <img src="images/onam6.jpg" style="width:100%">  <img src="images/onam11.jpg" style="width:100%"> <img src="images/onam2.jpg" style="width:100%"> </div><div class="column"> <img src="images/onam12.jpg" style="width:100%">  <img src="images/onam7.jpg" style="width:100%"> <img src="images/onam3.jpg" style="width:100%"></div><div class="column">  <img src="images/onam10.jpg" style="width:100%"> <img src="images/onam8.jpg" style="width:100%"> <img src="images/onam4.jpg" style="width:100%"></div>'
     document.getElementById('img-gallery').innerHTML=onam;
 }
 function operation6()
@@ -30,5 +30,15 @@ function operation6()
 function operation7()
 {
     hridyam='<div class="row m-5"><div class="column">   <img src="images/carousel2.jpg" style="width:100%"> </div><div class="column">    <img src="images/hridyam2.jpg" style="width:100%"></div><div class="column"><img src="images/hridyam3.jpg" style="width:100%"></div><div class="column"> <img src="images/hridyam1.jpg" style="width:100%">  </div>'
+    document.getElementById('img-gallery').innerHTML=hridyam;
+}
+function operation8()
+{
+    hridyam='<div class="row m-5"><div class="column">   <img src="images/pain1.jpg" style="width:100%">  <img src="images/pain5.jpg" style="width:100%"> </div><div class="column">    <img src="images/pain2.jpg" style="width:100%"></div><div class="column"><img src="images/pain3.jpg" style="width:100%"></div><div class="column"> <img src="images/pain4.jpg" style="width:100%">  </div>'
+    document.getElementById('img-gallery').innerHTML=hridyam;
+}
+function operation9()
+{
+    hridyam='<div class="row m-5"><div class="column">   <img src="images/pain1.jpg" style="width:100%">  <img src="images/pain5.jpg" style="width:100%"> </div><div class="column">    <img src="images/pain2.jpg" style="width:100%"></div><div class="column"><img src="images/pain3.jpg" style="width:100%"></div><div class="column"> <img src="images/pain4.jpg" style="width:100%">  </div>'
     document.getElementById('img-gallery').innerHTML=hridyam;
 }
