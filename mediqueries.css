@@ -73,8 +73,18 @@
     max-width: 25%;
     padding: 4px 4px 4px 4px;
   }
-  
+  .column1 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    padding: 4px 4px 4px 4px;
+  }
   .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  } 
+  .column1 img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
@@ -93,6 +103,11 @@
       flex: 100%;
       max-width: 100%;
     }
+    .column1 {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
     .tagline{
         font-size: 50px;
     }
