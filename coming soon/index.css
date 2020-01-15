@@ -1,0 +1,90 @@
+.logo{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 10%;
+  }
+  .main{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+  }
+  .align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+  }
+  .d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+  }
+  .head{
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Karla", sans-serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+    line-height: 60px;
+    font-weight: 800;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(90deg,  #c91010, #fff,  #db1313);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 4s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+  body{
+    background-color: white; 
+  }
+  .contact{
+    text-align: center;
+  }
+  .head-1{
+    color: #db1313;
+  }
+  .underline{
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+    margin: 0%;
+  
+  }
+  .phone{
+    color: black;
+    list-style: none;
+    text-align: center;
+    font-size: 15px;
+    font-family:"Karla",sans-serif ;
+  }
+  .numbers{
+    margin-left: 5px;
+    text-align: center;
+  }
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(253, 253, 253);
+    color:#db1313;
+    text-align: center;
+    height: 40px;
+    font-family:"Karla",sans-serif ;
+  }
+  .footer-item{
+    margin:auto;
+    margin-top: 9px;
+    font-family: "Karla",sans-serif ;
+    font-weight: 700;
+  }
