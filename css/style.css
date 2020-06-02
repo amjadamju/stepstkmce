@@ -300,3 +300,26 @@ span{
   height: 100%;
   width: 100%;
 }
+.content{
+  margin: auto;
+  width: 190px;
+ perspective: 1000px;
+ position: relative;
+ padding-top: 80px; 
+}
+.content-corousel{
+  width: 100%;
+  position: absolute;
+  float: right;
+  animation:rotar 15s infinite linear;
+  transform-style: preserve-3d;
+}
+.content-corousel:hover{
+  animation-play-state: paused;
+  cursor: pointer;
+}
+.content-corousel figure{
+  width: 100%;
+  height: 120px;
+  border: 1px solid #0a0;
+}
