@@ -78,4 +78,7 @@ body, html {
   .bg{
     height: 50%;
   }
+  .para{
+    font-size: 18px;
+  }
 }
