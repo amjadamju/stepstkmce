@@ -72,7 +72,7 @@ body{
 
 /*footer*/
 .main .navbar{
-  background-color:  rgb(224, 16, 16);
+  /* background-color:  ; */
   color: #ffffff;
 }
 .gg{
@@ -106,10 +106,6 @@ body{
   font-size: 15px;
 }
 
-.icons {
-  height: 25px;
-  width: 25px;
-}
 .footer-btn {
   margin-left: 2%;
 }
