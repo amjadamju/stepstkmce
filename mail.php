@@ -1,32 +1,18 @@
-<?php
-$name = $_POST['name'];
-$email = $_POST['email'];
-$message = $_POST['message'];
-$subject = $_POST['subject'];
-if ($name === ''){
-echo "Name cannot be empty.";
-die();
-}
-if ($email === ''){
-echo "Email cannot be empty.";
-die();
-} else {
-if (!filter_var($email, FILTER_VALIDATE_EMAIL)){
-echo "Email format invalid.";
-die();
-}
-}
-if ($subject === ''){
-echo "Subject cannot be empty.";
-die();
-}
-if ($message === ''){
-echo "Message cannot be empty.";
-die();
-}
-$content="From: $name \nEmail: $email \nMessage: $message";
-$recipient = "stepstkmceweb@gmail.com";
-$mailheader = "From: $email \r\n";
-mail($recipient, $subject, $content, $mailheader) or die("Error!");
-echo "Email sent!";
+<?php 
+if(isset($_POST['submit'])){
+    $to = "amjadpanjeeri@gmail.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $subject = $_POST['subject'];
+    $subject2 = "Copy of your form submission";
+    $message = $from . " wrote the following:" . "\n\n" . $_POST['message'];
+    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
+
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    echo "Mail Sent. Thank you " . $from . ", we will contact you shortly.";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    // You cannot use header and echo together. It's one or the other.
+    }
 ?>

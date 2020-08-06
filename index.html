@@ -15,6 +15,7 @@
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
@@ -46,7 +47,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="Ardra.html">Events</a>
                     </li>
-
                 </ul>
             </div>
         </nav>
@@ -89,20 +89,22 @@
                             <li class="list-inline-item">
                                 <a class="btn-floating btn-li mx-1" style="color: white;"
                                     href="https://www.linkedin.com/company/steps-tkmce">
-                                <i class="fab fa-linkedin"></i>
+                                    <i class="fab fa-linkedin"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a class="btn-floating btn-li mx-1" style="color: white;" href="https://www.youtube.com/channel/UCx2imz2_njkYglPN14VH61Q">
-                                 <i class="fab fa-youtube"></i>
-                                 </a>
-                              </li>
+                                <a class="btn-floating btn-li mx-1" style="color: white;"
+                                    href="https://www.youtube.com/channel/UCx2imz2_njkYglPN14VH61Q">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div class="row">
-                        <a class="btn example_a text-capitalize" href="#contact" target="#contact" rel="nofollow noopener" style="background-color: #f6eedf;"><span style="color:black;">Contact Us</span></a>
-                    
+                    <a class="btn example_a text-capitalize" href="#contact" target="#contact" rel="nofollow noopener"
+                        style="background-color: #f6eedf;"><span style="color:black;">Contact Us</span></a>
+
                 </div>
             </div>
         </div>
@@ -118,8 +120,9 @@
                 <p class="text-center font-weight-bold text-white h1-responsive">
                     About Us
                 </p>
-                <p class=" text-white font-weight-bolder h6-responsive description" style="text-align: justify;font-weight: 400;">
-                    STEPS, 
+                <p class=" text-white font-weight-bolder h6-responsive description"
+                    style="text-align: justify;font-weight: 400;">
+                    STEPS,
                     Students of TKMCE for the Empowerment of People and Society, abbreviated as STEPS today stands as
                     the epitome of gentleness under the minarets of TKM. The platform where every engineering mind turns
                     humanitarian. The place that rejuvenates the minds of many, reforms the society and revives
@@ -144,11 +147,11 @@
 
             <div class="card   border-0">
 
-                <div class="row"  style="background-color: #f6eedf;">
+                <div class="row" style="background-color: #f6eedf;">
 
                     <div class="col-md-6 py-3">
-                        <img class="img-fluid flex-center flex-column rounded-left justify-content-center" src="images/TRIKAHESTIA.jpg"
-                            alt="project image">
+                        <img class="img-fluid flex-center flex-column rounded-left justify-content-center"
+                            src="images/TRIKAHESTIA.jpg" alt="project image">
                     </div>
 
                     <div class="col-md-6 pt-2 pr-5 pl-5 align-self-center">
@@ -177,8 +180,9 @@
                                 <p class="text-muted mb-2">Idea Presentation</p>
                                 <p class="text-muted mb-2">Third eye</p>
                                 <p class="text-muted mb-4">Varnangal</p>
-                                    <!-- <h5  class="text-red text-muted font-weight-bold ">>>More</h5> -->
-                                    <a class="btn example_a text-capitalize" href="Trika.html" rel="nofollow noopener" style="background-color: #f6eedf;"><span style="color:black;">More</span></a>
+                                <!-- <h5  class="text-red text-muted font-weight-bold ">>>More</h5> -->
+                                <a class="btn example_a text-capitalize" href="Trika.html" rel="nofollow noopener"
+                                    style="background-color: #f6eedf;"><span style="color:black;">More</span></a>
 
 
                             </li>
@@ -385,7 +389,8 @@
                     </div>
                 </div>
                 <!-- Card Dark -->
-                <a class="example_a btn mx-auto my-5 text-capitalize" href="gallery.html" rel="nofollow noopener">Gallery</a>
+                <a class="example_a btn mx-auto my-5 text-capitalize" href="gallery.html"
+                    rel="nofollow noopener">Gallery</a>
 
             </div>
 
@@ -417,7 +422,7 @@
 
                     <!--Grid column-->
                     <div class="col-md-12 mb-md-0 mb-5">
-                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                        <form id="contact-form" action="">
 
                             <!--Grid row-->
                             <div class="row">
@@ -425,7 +430,7 @@
                                 <!--Grid column-->
                                 <div class="col-md-6">
                                     <div class="md-form mb-0">
-                                        <input type="text" id="name" name="name" class="form-control">
+                                        <input type="text" id="name" name="name" class="form-control" required>
                                         <label for="name" class="">Your name</label>
                                     </div>
                                 </div>
@@ -434,7 +439,7 @@
                                 <!--Grid column-->
                                 <div class="col-md-6">
                                     <div class="md-form mb-0">
-                                        <input type="text" id="email" name="email" class="form-control">
+                                        <input type="email" id="email" name="email" class="form-control" required>
                                         <label for="email" class="">Your email</label>
                                     </div>
                                 </div>
@@ -447,7 +452,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="md-form mb-0">
-                                        <input type="text" id="subject" name="subject" class="form-control">
+                                        <input type="text" id="subject" name="subject" class="form-control" required>
                                         <label for="subject" class="">Subject</label>
                                     </div>
                                 </div>
@@ -462,7 +467,7 @@
 
                                     <div class="md-form">
                                         <textarea type="text" id="message" name="message" rows="2"
-                                            class="form-control md-textarea"></textarea>
+                                            class="form-control md-textarea" required></textarea>
                                         <label for="message">Your message</label>
                                     </div>
 
@@ -470,12 +475,14 @@
                             </div>
                             <!--Grid row-->
 
-                        </form>
+                        
 
                         <div class="text-center ">
-                            <a class="example_a btn mx-auto my-5 text-capitalize" rel="nofollow noopener" onclick="document.getElementById('contact-form').submit();">Send</a>
+                            <input class="example_a btn mx-auto my-5 text-capitalize" rel="nofollow noopener"
+                                type="submit" name="submit" value="submit"></input>
 
                         </div>
+                    </form>
                         <div class="status"></div>
                     </div>
                     <!--Grid column-->
@@ -525,21 +532,22 @@
                         <li class="list-inline-item">
                             <a class="btn-floating btn-li mx-1" style="color: white;"
                                 href="https://www.linkedin.com/company/steps-tkmce">
-                            <i class="fab fa-linkedin"></i>
+                                <i class="fab fa-linkedin"></i>
                             </a>
                         </li>
-                         <li class="list-inline-item">
-                            <a class="btn-floating btn-li mx-1" style="color: white;" href="https://www.youtube.com/channel/UCx2imz2_njkYglPN14VH61Q">
-                             <i class="fab fa-youtube"></i>
-                             </a>
-                          </li>
+                        <li class="list-inline-item">
+                            <a class="btn-floating btn-li mx-1" style="color: white;"
+                                href="https://www.youtube.com/channel/UCx2imz2_njkYglPN14VH61Q">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
             </div>
 
             <div class="footer-copyright text-center  py-1">
-2020 STEPS TKMCE
+                2020 STEPS TKMCE
                 <!-- <p style="font-weight: 800;color:white;" class="mb-1"> &copy;&nbsp;Copyright STEPS </p> -->
             </div>
 
@@ -548,6 +556,27 @@
     </div>
     <!-- /Start your project here-->
     <script type="text/javascript">
+
+
+        $("#contact-form").submit((e) => {
+            e.preventDefault()
+            $.ajax({
+                url: "https://script.google.com/macros/s/AKfycbzkzy6C9X5sHsxWilcGJZYQ_UE4KtFcsnZCPl7R/exec",
+                data: $("#contact-form").serialize(),
+                method: "post",
+                success: function (response) {
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error: function (err) {
+                    alert("Something Error")
+
+                }
+            })
+        })
+
+
         $('.carousel').carousel({
             touch: true
         })
